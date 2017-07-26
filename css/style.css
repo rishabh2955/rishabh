@@ -1,0 +1,323 @@
+
+body
+{
+	padding-top:75px;
+	
+}
+/*The Navigation bar*/
+li
+{
+	list-style-type: none;
+}
+
+nav ul
+{
+	text-align:center;
+}
+
+nav ul li a{
+	color:grey	;
+	text-decoration: none;
+	padding:0.8rem 1rem;
+	display:block;
+	line-height:1;
+	font-weight: 300;
+	font-size: 24px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*Removing the underline from hover*/
+nav ul li a:hover
+{
+	text-decoration: none;
+	color:#222;
+}
+
+nav div:first-child{
+	line-height: 0;
+	padding:0.8rem 0rem;
+	text-align:left;
+}
+nav div:first-child img
+{
+	filter:contrast(0);
+}
+
+nav div:first-child h1, nav ul{
+	margin:0;
+}
+
+@media only screen and (min-width : 480px)
+{
+	nav 
+	{
+		display:flex;
+		justify-content: space-between;
+	
+	}
+
+	nav div:first-child
+	{
+		flex: 1 0 0 ;
+	}
+
+	nav ul
+	{
+		display: flex;
+		align-items: center;
+		background: none;
+		flex: 1 0 0;
+		justify-content: space-between;
+		padding:0;
+	}
+	nav div:first-child h1
+	{
+		padding:0;
+		
+	}
+
+	nav ul li
+	{
+		border-bottom: none;
+	}
+	nav ul li a 
+	{
+		padding:1.2rem 1rem;
+	}
+}
+
+
+.hero
+{
+	overflow-x: hidden;
+}
+
+.hero div:first-child p
+{
+	font-size:24px;
+	font-weight: 300px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	flex-basis: 1;
+}
+
+.image
+{
+	flex-basis: 1;
+	max-width:60%;
+	
+
+}
+
+@media only screen and (max-width : 320px)
+{
+	
+}
+
+/*work 1*/
+.container-fluid
+{
+	padding: 0;
+	margin:0;
+}
+
+.work
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.work p
+{
+	font-family: 'Raleway', sans-serif;
+
+	margin: 5rem  0rem;
+	color:#fff;
+}
+
+.work span h2
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#fff;
+	font-weight:300;
+}
+
+#one
+{
+	height:35em;
+	background-image: linear-gradient(135deg,#99c5f8,#ecc896);
+	overflow:hidden;
+}
+
+.content
+{
+	display:flex;
+	justify-content:space-between;
+
+}
+.content div:first-child
+{
+		padding-top:12em;	
+}
+#two
+{
+	height:35em;
+	background-image: linear-gradient(135deg,#8175e2,#dd9c9c);
+	overflow:hidden;	
+}
+#two .text
+{
+	order:2;
+} 
+#two .img
+{
+	order:1;
+}
+
+#three
+{
+	height:35em;
+	background-image: linear-gradient(135deg,#ffef99,#f09578);
+	overflow:hidden;
+}
+
+.CAT
+{
+	font-family: 'Open Sans Condensed' , sans-serif;
+	font-weight:300;
+	text-decoration: none;
+	color:white;
+}
+
+.CAT:hover , .CAT:visited ,.CAT:focus
+{
+	text-decoration: none;
+	color:#fff;
+}
+
+.cat_border
+{
+	content:"";
+	height:2px;
+	background-color:#fff;
+	width: 40px;
+}
+
+
+/*#################################################
+##################################################
+####################################################
+#################CONTACT FORM######################*/
+.contact
+{
+	height:40em;
+	background-color:white;
+	margin-top:5em ;
+}
+
+
+#contact > div:first-child
+{
+	font-weight:300;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#979797;
+	margin: 2em 0;
+}
+#contact div:first-child h3
+{
+	font-size:36px;
+	font-weight:300;
+}
+#contact div:first-child h5
+{
+	font-size:20px;
+	font-weight: 300;
+	padding:0.8rem 0;
+}
+
+.display-none
+{
+	display:none;
+}
+
+input[type= text], input[type=email] , input[type=submit], textarea#inputMessage
+{
+	border-radius: 0;
+	border:none;
+	border-bottom: 1px solid #eee;
+	box-shadow: none;
+	padding: 1rem 2rem ;
+	margin:3rem 0;
+}
+input[type= text]:focus, input[type=email]:focus , input[type=submit]:focus, textarea#inputMessage:focus
+{
+	border:none;
+	outline:none;
+}
+.form
+{
+	padding:2rem 0;
+}
+
+.line1
+{
+	display : flex;
+	justify-content:space-between;	
+	align-items: 	center;		
+}
+
+.line1 input
+{
+	flex-basis:45%;
+}
+
+.message
+{
+	display:flex;
+}
+.message textarea
+{
+	flex-basis:100%;
+}
+
+#contact-form
+{
+	font-family:'Raleway', sans-serif;
+	font-size: 18px;
+	color:#5d5d5d;
+}
+
+#email-submit-btn
+{
+	margin: 3em 0;
+	padding:1em 3em;
+	border-radius:2em;
+	border: 1px solid #6dc2be;
+	color:#6dc2be;
+}
+
+input:placeholder-shown , textarea:placeholder-shown
+{
+	color:#979797;;
+}
+
+
+@media only screen and (max-width : 480px)
+{
+	.hero .image img
+	{
+		display:none;
+	}
+
+	.img
+	{
+		display:none;
+	}
+
+	.line1
+	{
+		flex-direction: column;
+	}
+
+
+}
+
