@@ -307,7 +307,15 @@ input:placeholder-shown , textarea:placeholder-shown
 	{
 		display:none;
 	}
-
+	.content div:first-child 
+	{
+    	padding-top: 6em;
+    	padding-bottom:6em;
+	}
+	#one ,#two ,#three
+	{
+		height:auto;
+	}
 	.img
 	{
 		display:none;
@@ -318,6 +326,10 @@ input:placeholder-shown , textarea:placeholder-shown
 		flex-direction: column;
 	}
 
+	.line1 input
+	{
+		flex-basis:100%;
+	}
 
 }
 
