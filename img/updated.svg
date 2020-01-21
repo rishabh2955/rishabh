@@ -1,0 +1,143 @@
+<svg id="epoi6rhovpu1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 68.210000 91.250000" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+<style>
+.ppp {
+  
+
+  animation: dash 2s Ease-in-out ;
+    
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 54.0900;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.ppp1 {
+  
+
+  animation: dash1 2s Ease-in-out ;
+    
+}
+
+@keyframes dash1 {
+  from {
+    stroke-dashoffset: 28.400000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.ppp2 {
+  
+
+  animation: dash2 2s Ease-in-out ;
+    
+}
+
+@keyframes dash2 {
+  from {
+    stroke-dashoffset: 79.030000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.ppp3 {
+  
+  
+  animation: dash3 2s Ease-in-out ;
+    
+}
+
+@keyframes dash3 {
+  from {
+    stroke-dashoffset: 126;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.ppp4 {
+    
+
+  animation: dash4 2s Ease-in-out ;
+    
+}
+
+@keyframes dash4 {
+  from {
+    stroke-dashoffset: 93;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.ppp5 {
+    
+
+  animation: dash5 2s Ease-in-out ;
+    
+}
+
+@keyframes dash5 {
+  from {
+    stroke-dashoffset: 71.930000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.ppp6 {
+    
+  
+  animation: dash6 2s Ease-in-out ;
+    
+}
+
+@keyframes dash6 {
+  from {
+    stroke-dashoffset: 22.380000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+} 
+.ppp7 {
+    
+
+  animation: dash7 2s Ease-in-out ;
+    
+}
+
+@keyframes dash7 {
+  from {
+    stroke-dashoffset: 46.980000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+} 
+</style>
+<g id="epoi6rhovpu2"><g id="epoi6rhovpu3">
+
+<path class="ppp" id="epoi6rhovpu4" d="M0.500000,11.750000L0.500000,0.750000C0.500000,0.250000,34.210000,0.610000,37.630000,0.920000C39.600106,1.091454,41.559591,1.368519,43.500000,1.750000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-miterlimit="10"  stroke-dasharray="54.090000"/>
+
+<path class="ppp1" id="epoi6rhovpu5" d="M64.480000,23.750000C66.175500,33.190324,64.014178,42.916271,58.480000,50.750000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-miterlimit="10"  stroke-dasharray="28.400000"/>
+
+<polyline class="ppp2" id="epoi6rhovpu6" points="56.500000,59.750000 67.500000,90.750000 43.500000,90.750000 36.500000,69.750000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-miterlimit="10"  stroke-dasharray="79.030000"/>
+
+<polyline class="ppp3" id="epoi6rhovpu7" points="30.500000,58.750000 30.500000,90.750000 0.500000,90.750000 0.500000,26.750000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-miterlimit="10"  stroke-dasharray="126"/>
+
+<polyline class="ppp4" id="epoi6rhovpu8" points="11.500000,24.750000 11.500000,82.750000 21.500000,82.750000 21.500000,57.750000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-miterlimit="10"  stroke-dasharray="93"/>
+
+<path class="ppp5" id="epoi6rhovpu9" d="M9.500000,12.750000C9.500000,12.750000,18.500000,11.750000,22.500000,11.750000C26.500000,11.750000,38.500000,13.750000,42.500000,20.750000C46.500000,27.750000,44.500000,35.750000,39.500000,41.750000C36.643510,45.240856,33.271422,48.275735,29.500000,50.750000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-miterlimit="10"  stroke-dasharray="71.930000"/>
+
+<path class="ppp6" id="epoi6rhovpu10" d="M43.500000,9.750000C43.500000,9.750000,49.500000,11.750000,52.500000,15.750000C55.500000,19.750000,54.500000,26.750000,54.500000,26.750000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-miterlimit="10"  stroke-dasharray="22.380000"/>
+
+<path class="ppp7" id="epoi6rhovpu11" d="M51.500000,42.750000C49.910000,46.950000,44.620000,52.410000,40.500000,54.750000L52.500000,82.750000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-miterlimit="10"  stroke-dasharray="46.980000"/></g></g></svg>
+
+
