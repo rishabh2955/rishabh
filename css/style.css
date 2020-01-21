@@ -4,6 +4,11 @@ body
 	padding-top:75px;
 	
 }
+#logo
+{
+	width: 150px;
+	height: auto;
+}
 /*The Navigation bar*/
 li
 {
